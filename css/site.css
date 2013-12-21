@@ -1,0 +1,179 @@
+/* 
+    Document   : site
+    Created on : May 28, 2012, 5:20:50 PM
+    Author     : zohaib
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+    height: auto;
+    
+}
+
+*{
+ font-family: Verdana;
+ font-size: 96%;
+ }
+label {
+    width: 10em;
+    float: left; 
+}
+label.error {
+    float: none;
+    color: red;
+    padding-left: .5em; 
+    vertical-align: top; 
+}
+p { 
+    clear: both; 
+}
+.submit {
+    margin-left: 12em;
+}
+em {
+    font-weight: bold;
+    padding-right: 1em;
+    vertical-align: top;
+}
+
+.input-box{
+    clear:none;
+    display:inline;
+    width:auto;
+}
+
+.submit{
+   border-color:#406a83;
+   background:#618499;
+}
+
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+.ValidationErrors {
+    color:#cd0a0a;
+    padding-left: 30px;
+    margin-left: 15px;
+}
+
+#psdgraphics-com-table {
+	margin:0;
+	padding: 4px;
+	width: 879px;
+	font: 11px Arial, Helvetica, sans-serif;
+	color:#747474;
+	background-color:#0c2a62;
+}
+
+
+#psdg-header {
+	margin:0;
+	padding: 14px 0 0 24px;
+	width: 854px;
+	height: 55px;
+	color:#FFF;
+	font-size:13px;
+	background: #0c2c65 url(images/head-bcg.jpg) no-repeat right top;	
+}
+
+.psdg-bold {
+	font: bold 22px Arial, Helvetica, sans-serif;
+	
+}
+
+#psdg-top {
+	margin:0;
+	padding: 0;
+	width: 879px;
+	height: 46px;
+	border-top: 2px solid #FFF;
+	background: #eff4ff url(images/top-light-blue.png) repeat-x left top;	
+}
+
+.psdg-top-cell {
+	float:left;
+	padding: 15px 0 0 0;
+	text-align:center;
+	width:170px;
+	height: 31px;
+	border-right: 1px solid #ced9ec;
+	color:#1f3d71;
+	font: 13px Arial, Helvetica, sans-serif;
+}
+
+#psdg-middle {
+	margin:0;
+	padding: 0;
+	width: 879px;
+	background: #f6f6f6 url(images/center-bcg.png) repeat-y right top;	
+}
+
+.psdg-left {
+	float:left;
+	margin:0;
+	padding: 10px 0 0 24px;
+	width: 170px;
+	text-align: left;
+	height: 25px;
+	border-right: 1px solid #ced9ec;
+	border-bottom: 1px solid #b3c1db;
+	color:#1f3d71;
+	font: 13px Arial, Helvetica, sans-serif;
+	background: #e4ebf8 url(images/center-blue.png) repeat-y left top;
+}
+
+
+
+.psdg-right {
+	float:left;
+	margin:0;
+	padding: 11px 0 0 0;
+	width: 170px;
+	text-align:center;
+	height: 24px;
+	border-right: 1px solid #ced9ec;
+	border-bottom: 1px solid #b3c1db;        
+}
+
+#psdg-bottom {
+	clear:both;
+	margin:0;
+	padding: 0;
+	width: 878px;
+	height: 48px;
+	border-top: 2px solid #FFF;
+	background: #e4e3e3 url(images/bottom-line.png) repeat-x left top;	
+}
+
+
+.psdg-bottom-cell {
+	float:left;
+	padding: 15px 0 0 0;
+	text-align:center;
+	width:170px;
+	height: 33px;
+	border-right: 1px solid #ced9ec;
+	color:#070707;
+	font: 13px Arial, Helvetica, sans-serif;
+}
+
+
+
+#psdg-footer {
+	font-size: 10px;
+	color:#8a8a8a;
+	margin:0;
+	padding: 8px 0 8px 12px;
+	width: 566px;
+	background: #f6f6f6 url(images/center-bcg.png) repeat-y right top;	
+}
+
+a.rlink:link {text-decoration: none;color: #1f3d71}
+a.rlink:visited {text-decoration: none; color: #618499;}
+a.rlink:active {text-decoration: none}
+a.rlink:hover {font-size:24; font-weight:bold; color: red;}
